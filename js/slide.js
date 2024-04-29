@@ -1,7 +1,7 @@
 export default class Slide {
     constructor(slide, wrapper) {
         this.slide = document.querySelector(slide);
-        this.wrapper = document.querySelector(wrapper);
+        this.wrapper = document.querySelector(wrapper)
         this.dist = {finalPosition: 0, startX: 0, movement: 0};
     }
 
